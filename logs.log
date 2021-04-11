@@ -1,0 +1,455 @@
+2021-04-07 14:23:38,054:INFO:Initializing load_model()
+2021-04-07 14:23:38,054:INFO:load_model(model_name=extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-04-07 14:33:22,020:INFO:Initializing load_model()
+2021-04-07 14:33:22,021:INFO:load_model(model_name=extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-04-07 14:33:26,272:INFO:Initializing load_model()
+2021-04-07 14:33:26,272:INFO:load_model(model_name=extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-04-07 14:33:26,331:INFO:Initializing predict_model()
+2021-04-07 14:33:26,332:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-07 14:33:26,334:INFO:Checking exceptions
+2021-04-07 14:33:26,334:INFO:Preloading libraries
+2021-04-10 13:32:16,530:INFO:Initializing load_model()
+2021-04-10 13:32:16,530:INFO:load_model(model_name=model_random_forest, platform=None, authentication=None, verbose=True)
+2021-04-10 13:33:18,728:INFO:Initializing load_model()
+2021-04-10 13:33:18,728:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:33:33,685:INFO:Initializing load_model()
+2021-04-10 13:33:33,686:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:33:37,565:INFO:Initializing load_model()
+2021-04-10 13:33:37,565:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:33:39,431:INFO:Initializing load_model()
+2021-04-10 13:33:39,431:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:33:49,417:INFO:Initializing load_model()
+2021-04-10 13:33:49,417:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:37:07,429:INFO:Initializing load_model()
+2021-04-10 13:37:07,429:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:38:34,188:INFO:Initializing load_model()
+2021-04-10 13:38:34,190:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:39:08,655:INFO:Initializing load_model()
+2021-04-10 13:39:08,656:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:41:44,784:INFO:Initializing load_model()
+2021-04-10 13:41:44,785:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:41:47,089:INFO:Initializing load_model()
+2021-04-10 13:41:47,089:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:41:52,932:INFO:Initializing load_model()
+2021-04-10 13:41:52,932:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:41:54,774:INFO:Initializing load_model()
+2021-04-10 13:41:54,774:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:41:56,554:INFO:Initializing load_model()
+2021-04-10 13:41:56,555:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:42:03,008:INFO:Initializing load_model()
+2021-04-10 13:42:03,009:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:42:44,362:INFO:Initializing load_model()
+2021-04-10 13:42:44,363:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:42:52,764:INFO:Initializing load_model()
+2021-04-10 13:42:52,764:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:42:56,940:INFO:Initializing load_model()
+2021-04-10 13:42:56,940:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:42:58,674:INFO:Initializing load_model()
+2021-04-10 13:42:58,674:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:43:00,485:INFO:Initializing load_model()
+2021-04-10 13:43:00,486:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:43:02,139:INFO:Initializing load_model()
+2021-04-10 13:43:02,139:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 13:46:41,547:INFO:Initializing load_model()
+2021-04-10 13:46:41,548:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:46:45,267:INFO:Initializing load_model()
+2021-04-10 15:46:45,268:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:46:45,779:INFO:Initializing load_model()
+2021-04-10 15:46:45,780:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:46:54,957:INFO:Initializing load_model()
+2021-04-10 15:46:54,958:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:47:35,808:INFO:Initializing load_model()
+2021-04-10 15:47:35,809:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:22,095:INFO:Initializing load_model()
+2021-04-10 15:48:22,095:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:22,619:INFO:Initializing load_model()
+2021-04-10 15:48:22,619:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:27,708:INFO:Initializing load_model()
+2021-04-10 15:48:27,710:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:38,284:INFO:Initializing load_model()
+2021-04-10 15:48:38,285:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:43,704:INFO:Initializing load_model()
+2021-04-10 15:48:43,704:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:45,190:INFO:Initializing load_model()
+2021-04-10 15:48:45,190:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:46,680:INFO:Initializing load_model()
+2021-04-10 15:48:46,680:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:48:47,979:INFO:Initializing load_model()
+2021-04-10 15:48:47,980:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:49:55,641:INFO:Initializing load_model()
+2021-04-10 15:49:55,642:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:50:00,525:INFO:Initializing load_model()
+2021-04-10 15:50:00,525:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:50:04,587:INFO:Initializing load_model()
+2021-04-10 15:50:04,588:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-10 15:50:08,655:INFO:Initializing load_model()
+2021-04-10 15:50:08,655:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:10:46,815:INFO:Initializing load_model()
+2021-04-11 13:10:46,816:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:10:57,366:INFO:Initializing load_model()
+2021-04-11 13:10:57,367:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:11:03,398:INFO:Initializing load_model()
+2021-04-11 13:11:03,398:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:11:04,725:INFO:Initializing load_model()
+2021-04-11 13:11:04,725:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:11:05,972:INFO:Initializing load_model()
+2021-04-11 13:11:05,972:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:11:07,339:INFO:Initializing load_model()
+2021-04-11 13:11:07,340:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:11:36,179:INFO:Initializing load_model()
+2021-04-11 13:11:36,181:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:20:55,729:INFO:Initializing load_model()
+2021-04-11 13:20:55,731:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:21:02,403:INFO:Initializing load_model()
+2021-04-11 13:21:02,403:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:21:08,909:INFO:Initializing load_model()
+2021-04-11 13:21:08,909:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:21:20,574:INFO:Initializing load_model()
+2021-04-11 13:21:20,575:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 13:21:22,037:INFO:Initializing load_model()
+2021-04-11 13:21:22,037:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:13,886:INFO:Initializing load_model()
+2021-04-11 22:32:13,887:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:40,808:INFO:Initializing load_model()
+2021-04-11 22:32:40,809:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:49,898:INFO:Initializing load_model()
+2021-04-11 22:32:49,899:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:51,749:INFO:Initializing load_model()
+2021-04-11 22:32:51,749:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:53,055:INFO:Initializing load_model()
+2021-04-11 22:32:53,055:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:32:54,777:INFO:Initializing load_model()
+2021-04-11 22:32:54,777:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:43,061:INFO:Initializing load_model()
+2021-04-11 22:33:43,061:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:51,093:INFO:Initializing load_model()
+2021-04-11 22:33:51,094:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:51,982:INFO:Initializing load_model()
+2021-04-11 22:33:51,982:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:53,558:INFO:Initializing load_model()
+2021-04-11 22:33:53,558:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:55,043:INFO:Initializing load_model()
+2021-04-11 22:33:55,044:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:33:57,566:INFO:Initializing load_model()
+2021-04-11 22:33:57,566:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:35:54,433:INFO:Initializing load_model()
+2021-04-11 22:35:54,433:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:00,927:INFO:Initializing load_model()
+2021-04-11 22:36:00,927:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:04,206:INFO:Initializing load_model()
+2021-04-11 22:36:04,207:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:04,276:INFO:Initializing predict_model()
+2021-04-11 22:36:04,277:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:36:04,281:INFO:Checking exceptions
+2021-04-11 22:36:04,281:INFO:Preloading libraries
+2021-04-11 22:36:19,654:INFO:Initializing load_model()
+2021-04-11 22:36:19,655:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:21,058:INFO:Initializing load_model()
+2021-04-11 22:36:21,058:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:21,121:INFO:Initializing predict_model()
+2021-04-11 22:36:21,122:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:36:21,124:INFO:Checking exceptions
+2021-04-11 22:36:21,129:INFO:Preloading libraries
+2021-04-11 22:36:26,815:INFO:Initializing load_model()
+2021-04-11 22:36:26,816:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:28,964:INFO:Initializing load_model()
+2021-04-11 22:36:28,964:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:30,314:INFO:Initializing load_model()
+2021-04-11 22:36:30,315:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:30,381:INFO:Initializing predict_model()
+2021-04-11 22:36:30,382:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:36:30,383:INFO:Checking exceptions
+2021-04-11 22:36:30,383:INFO:Preloading libraries
+2021-04-11 22:36:54,228:INFO:Initializing load_model()
+2021-04-11 22:36:54,228:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:55,425:INFO:Initializing load_model()
+2021-04-11 22:36:55,426:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:36:55,493:INFO:Initializing predict_model()
+2021-04-11 22:36:55,493:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:36:55,494:INFO:Checking exceptions
+2021-04-11 22:36:55,495:INFO:Preloading libraries
+2021-04-11 22:37:04,778:INFO:Initializing load_model()
+2021-04-11 22:37:04,779:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:37:05,092:INFO:Initializing load_model()
+2021-04-11 22:37:05,092:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:37:05,158:INFO:Initializing predict_model()
+2021-04-11 22:37:05,159:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:37:05,159:INFO:Checking exceptions
+2021-04-11 22:37:05,160:INFO:Preloading libraries
+2021-04-11 22:45:36,138:INFO:Initializing load_model()
+2021-04-11 22:45:36,138:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:45:36,452:INFO:Initializing load_model()
+2021-04-11 22:45:36,453:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:45:36,518:INFO:Initializing predict_model()
+2021-04-11 22:45:36,518:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:45:36,519:INFO:Checking exceptions
+2021-04-11 22:45:36,520:INFO:Preloading libraries
+2021-04-11 22:45:52,049:INFO:Initializing load_model()
+2021-04-11 22:45:52,050:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:45:53,277:INFO:Initializing load_model()
+2021-04-11 22:45:53,278:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:45:53,336:INFO:Initializing predict_model()
+2021-04-11 22:45:53,337:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:45:53,338:INFO:Checking exceptions
+2021-04-11 22:45:53,339:INFO:Preloading libraries
+2021-04-11 22:45:58,891:INFO:Initializing load_model()
+2021-04-11 22:45:58,892:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:46:00,070:INFO:Initializing load_model()
+2021-04-11 22:46:00,071:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:46:00,133:INFO:Initializing predict_model()
+2021-04-11 22:46:00,134:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:46:00,136:INFO:Checking exceptions
+2021-04-11 22:46:00,140:INFO:Preloading libraries
+2021-04-11 22:52:40,437:INFO:Initializing load_model()
+2021-04-11 22:52:40,437:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:52:41,602:INFO:Initializing load_model()
+2021-04-11 22:52:41,602:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:52:41,666:INFO:Initializing predict_model()
+2021-04-11 22:52:41,667:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:52:41,668:INFO:Checking exceptions
+2021-04-11 22:52:41,668:INFO:Preloading libraries
+2021-04-11 22:53:21,270:INFO:Initializing load_model()
+2021-04-11 22:53:21,270:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:53:23,547:INFO:Initializing load_model()
+2021-04-11 22:53:23,547:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:53:25,687:INFO:Initializing load_model()
+2021-04-11 22:53:25,688:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:53:28,229:INFO:Initializing load_model()
+2021-04-11 22:53:28,230:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:53:29,256:INFO:Initializing load_model()
+2021-04-11 22:53:29,256:INFO:load_model(model_name=random_forest_model, platform=None, authentication=None, verbose=True)
+2021-04-11 22:53:29,319:INFO:Initializing predict_model()
+2021-04-11 22:53:29,320:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='real_rent')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='real_rent')),
+                ('fix_perfect', Remove_100(target='real_rent')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-11 22:53:29,321:INFO:Checking exceptions
+2021-04-11 22:53:29,322:INFO:Preloading libraries
